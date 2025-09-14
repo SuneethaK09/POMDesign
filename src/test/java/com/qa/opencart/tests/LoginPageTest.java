@@ -21,7 +21,7 @@ import io.qameta.allure.Story;
 public class LoginPageTest extends BaseTest{
 	
 	
-	@Description("Login page title test")
+	@Description("Login page Title test")
 	@Owner("Suneetha")
 	@Severity(SeverityLevel.MINOR)
 	@Test
@@ -33,7 +33,7 @@ public class LoginPageTest extends BaseTest{
 	}
 	
 	
-	@Description("Login page url test")
+	@Description("Login page URL test")
 	@Owner("Suneetha")
 	@Severity(SeverityLevel.NORMAL)
 	@Test
