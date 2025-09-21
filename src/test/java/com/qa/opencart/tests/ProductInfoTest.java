@@ -10,6 +10,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.aventstack.chaintest.plugins.ChainTestListener;
 import com.qa.opencart.base.BaseTest;
+import com.qa.opencart.utils.CsvUtil;
 import com.qa.opencart.utils.ExcelUtil;
 
 public class ProductInfoTest extends BaseTest{
@@ -39,7 +40,7 @@ public class ProductInfoTest extends BaseTest{
 	
 	@DataProvider
 	public Object[][] getProductCSVData() {
-		return ExcelUtil.getTestData("ProductData");
+		return CsvUtil.csvData("ProductData");
 	}
 	
 		
